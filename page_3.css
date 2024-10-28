@@ -1,0 +1,72 @@
+body{
+    background-image: url(image/image.avif);
+    position: relative ;
+    height: 100hv;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    border: none;
+    width: 500px;
+    height: 450px;
+}
+header{
+    border-bottom: solid gray;
+    text-align: center;
+    color: transparent;
+    font-weight: bold;
+    background-image: url(image/OIP1.jpg);
+    -webkit-background-clip:  text;
+    animation:20s liner 0.5s infinite alternate;
+    animation-name:  animate ;
+    font-size: 50px;
+}
+@keyframes animate{
+    100%{
+     background-position: -500px 0;
+    }
+}
+section{
+    float: left;
+    margin-left: 25%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#connexion{
+    color: #fff;
+    border-left-color: blue;
+    background-color: orangered;
+    height: 30px; 
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px ;
+    cursor:pointer;
+    
+}
+#nom, #mdp{
+    width: 290px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px 10px 10px 10px ;
+}
+#lien{
+    color: white;
+    text-decoration: none;
+}
+#lien::before{
+    color: blue;
+}
+.housse {
+    background-color: none;
+    border: none;
+    float: right;
+    padding-right: 5%;
+  }
+span{
+    padding-left:60%;
+    font-size:25px;
+    color: antiquewhite;
+    font-weight: bold;
+}

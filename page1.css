@@ -1,0 +1,168 @@
+body{
+    background-image: url(image/image13.avif);
+    position: relative ;
+    height: 100hv;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    color:white;
+}
+*, *::before, *::after{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   outline: none;
+}
+header{
+    background-color: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+nav .logo{
+    width: 180px;
+    cursor: pointer; 
+}
+.lien{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    margin-right:100px;
+    position: relative;
+}
+
+
+ .slide-line{
+     font-size:40px;
+     text-decoration: none;
+     color: #fff;
+     position: relative;
+     
+}
+.slide-line::before {
+    content: "";
+    position: absolute;
+    background: #222;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+}
+.slide-line:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+.slide-line2{
+    font-size:40px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    
+}
+.slide-line2::before {
+   content: "";
+   position: absolute;
+   background: #222;
+   width: 100%;
+   height: 3px;
+   bottom: 0;
+   transform-origin: 100% 0;
+   transform: scaleX(0);
+   transition: transform 0.4s;
+}
+.slide-line2:hover::before {
+   transform-origin: 0 0;
+   transform: scaleX(1);
+}
+.slide-line3{
+    font-size:40px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    
+}
+.slide-line3::before {
+   content: "";
+   position: absolute;
+   background: #222;
+   width: 100%;
+   height: 3px;
+   bottom: 0;
+   transform-origin: 100% 0;
+   transform: scaleX(0);
+   transition: transform 0.4s;
+}
+.slide-line3:hover::before {
+   transform-origin: 0 0;
+   transform: scaleX(1);
+}
+.slide-line4{
+    font-size:40px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    
+}
+.slide-line4::before {
+   content: "";
+   position: absolute;
+   background: #222;
+   width: 100%;
+   height: 3px;
+   bottom: 0;
+   transform-origin: 100% 0;
+   transform: scaleX(0);
+   transition: transform 0.4s;
+}
+.slide-line4:hover::before {
+   transform-origin: 0 0;
+   transform: scaleX(1);
+}
+.n01{text-decoration: none;}
+.n02{text-decoration: none;}
+.n03{text-decoration: none;}
+.n04{
+   text-decoration: none;
+   margin-right:40px;
+}
+.corps{
+    bottom: 10%;
+    position: absolute;
+    color: #fff;
+}
+.corps p{
+    font-size:50px;
+    font-weight: bold;
+}
+.corps h1{
+    line-height: 120px;
+    font-size: 180px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(image/pattern.png);
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation:20s liner 0.5s infinite alternate;
+    animation-name:  animate ;
+}
+@keyframes animate{
+       100%{
+        background-position: -500px 0;
+       }
+}
+.corps h3{
+    font-size:40px;
+    font-weight: 500;
+}
